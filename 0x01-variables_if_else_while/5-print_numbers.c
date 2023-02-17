@@ -5,6 +5,6 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 		printf("%d", i);
-       		puts("\n");	
+		printf("\n");
 	return (0);
 }
