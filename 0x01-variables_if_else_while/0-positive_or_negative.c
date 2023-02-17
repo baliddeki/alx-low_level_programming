@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* 
- * Entry - Main
+ * main - Entry Point
  *
  * this is a program to print whether a random number n is negative or positive
  */
