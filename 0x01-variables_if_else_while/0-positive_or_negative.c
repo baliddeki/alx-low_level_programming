@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /* 
- * main - Entry Point
+ * main - Entry Poin
  *
- * this is a program to print whether a random number n is negative or positive
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
