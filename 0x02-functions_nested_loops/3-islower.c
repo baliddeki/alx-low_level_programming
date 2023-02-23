@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <ctype.h>
-int _islower(int c)
+int (_islower(int c))
 {
 	if (islower(c))
 		_putchar('1');
