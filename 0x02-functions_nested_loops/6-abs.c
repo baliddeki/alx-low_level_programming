@@ -3,5 +3,5 @@
 int _abs(int n)
 {	
 	int c = abs(n);
-	_putchar(c + '0');
+	return c;
 }
