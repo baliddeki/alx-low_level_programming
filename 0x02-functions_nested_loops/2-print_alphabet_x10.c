@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * 
  * print_alphabet_x10 - returns the alphabet 10 times
- * 
+ * @c: letter of the alphabet
  * Return: alphabet printed 10 times
  */
 
@@ -16,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(c);	
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
