@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 int print_last_digit(int n)
 {	int c = abs(n);
