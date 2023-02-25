@@ -3,7 +3,8 @@
 /**
  * print_sign - function prints the sign of a number
  * @n: any integer number
- * Return: 1 (for positive numbers) 0 (for numbers ewual to zero) -1 (for negative numbers
+ * Return: 1 (for positive numbers) 0 (for numbers ewual to zero)
+ * Retur: -1 (for negative numbers)
  */
 
 int print_sign(int n)
