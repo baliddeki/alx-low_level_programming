@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - function takes a pointer as a paramater
  * it then updates the value to 98
- * n - any integer
+ * @n: any integer
  * Return: void
  */
 
