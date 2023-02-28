@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void swap-int(int *a, int *b)
+void swap_int(int *a, int *b)
 {	
 	*b = a;
 	*a = b;
