@@ -9,10 +9,8 @@
 
 int main(void)
 {
-	int n;
-	n = 402;
-	printf("n = %d\n", n);
-	reset_to_98(&n);
-	printf("n = %d\n", n);
+	char *str;
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
 	return (0);
 }
