@@ -9,5 +9,6 @@
 
 int _strlen(char *s)
 {
-	_putchar(strlen(s));
+	int i = strlen(s);
+	return i;
 }
