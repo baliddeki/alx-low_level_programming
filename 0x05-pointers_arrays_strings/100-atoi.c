@@ -17,19 +17,19 @@ int _atoi(char *s)
 	{
 		s++;
 	}
-	if (*s == '-')
+	if ((*s == '-') || (*s == '+'))
 	{
-		sign = -1;
-		s++;
-	} else if (*s == '+')
-	{
+		if (*s == '-')
+		{
+			sign *= -1;
+		}
 		s++;
 	}
 	while ((*s >= '0') && (*s <= '9'))
 	{
 		if (result > (INT_MAX - (*s - '0')) / 10)
 		{
-			return sign > 0 ? INT_MAX : INT_MIN;
+			return (sign > 0 ? INT_MAX : INT_MIN);
 		}
 		result = result * 10 + (*s - '0');
 		s++;
