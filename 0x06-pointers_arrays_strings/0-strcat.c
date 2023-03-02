@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * char _strcat - appends the src string to the dest string
+ * char *_strcat - appends the src string to the dest string
  * overwriting null byte at the end of the dest and then
  * adds a terminating null byte
  * @dest: any string
