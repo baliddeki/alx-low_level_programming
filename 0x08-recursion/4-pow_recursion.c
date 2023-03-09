@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 
 /**
  * _pow_recursion - evaluates the power of a number
@@ -17,7 +18,7 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		z = x ** y;
+		z = pow(x, y)
 	}
-	return z;
+	return (z);
 }
