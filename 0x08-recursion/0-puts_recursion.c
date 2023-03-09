@@ -7,5 +7,5 @@
 
 void _puts_recursion(char *s)
 {
-	pust(s);
+	puts(s);
 }
