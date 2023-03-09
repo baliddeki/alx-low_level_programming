@@ -14,10 +14,10 @@ void _print_rev_recursion(char *s)
 	char c;
 	int j = 0;
 
-	c = s[j];
-	s[j] = s[i - j - 1];
-	s[i - j -1] = c;
-	puts(c);
+	c = *(s + j);
+	*(s + j) = *(s + i - j - 1);
+	*(s + i - j -1) = c;
+	_putchar(c);
 	j++;
 
 	if (j < mid)
