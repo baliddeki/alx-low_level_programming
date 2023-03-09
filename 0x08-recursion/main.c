@@ -2,6 +2,6 @@
 int main (void)
 {	int r;
 
-	r = _pow_recursion(-3, 2);
+	r = _sqrt_recursion(25);
 	printf("%d\n", r);
 }
