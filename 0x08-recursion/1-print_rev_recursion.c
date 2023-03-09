@@ -17,7 +17,7 @@ void _print_rev_recursion(char *s)
 	c = s[j];
 	s[j] = s[i - j - 1];
 	s[i - j -1] = c;
-	_putchar(c);
+	puts(c);
 	j++;
 
 	if (j < mid)
