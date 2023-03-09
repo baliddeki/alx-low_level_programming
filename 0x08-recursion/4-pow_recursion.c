@@ -10,15 +10,22 @@
 
 int _pow_recursion(int x, int y)
 {
-	int z;
+	int power;
+	int times;
+
+	times = 0;
 
 	if (y < 0)
 	{
-		z = -1;
+		return(-1);
+	}
+	else if (y != 0)
+	{
+		power = x * _pow_recursion(x, (y - 1));
 	}
 	else
 	{
-		z = pow(x, y);
+		power = 1;
 	}
-	return (z);
+	return power;
 }
