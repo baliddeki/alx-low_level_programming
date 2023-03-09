@@ -9,7 +9,6 @@
 int factorial(int n)
 {
 	int fact;
-	
 	if (n < 1)
 	{
 		return (-1);
