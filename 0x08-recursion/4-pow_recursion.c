@@ -11,9 +11,10 @@
 int _pow_recursion(int x, int y)
 {
 	int power;
+
 	if (y < 0)
 	{
-		return(-1);
+		return (-1);
 	}
 	else if (y != 0)
 	{
@@ -23,5 +24,5 @@ int _pow_recursion(int x, int y)
 	{
 		power = 1;
 	}
-	return power;
+	return (power);
 }
