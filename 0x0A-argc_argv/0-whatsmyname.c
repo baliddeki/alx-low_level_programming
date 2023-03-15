@@ -7,13 +7,11 @@
  * @*argv: array
  */
 
-void print_name(char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
-}
-
-int main(char  *argv[])
-{
-	print_name(argv);
+	while (argc--)
+	{
+		printf("%s\n", argv[0]);
+	}
 	return (0);
 }
