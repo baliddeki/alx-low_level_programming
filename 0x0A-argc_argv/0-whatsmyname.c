@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - prints program_name
+ * main - prints programname
  * @argc: argument count
- * @*argv: array
+ * @*argv[]: array of strings
  */
 
 int main(int argc, char *argv[])
