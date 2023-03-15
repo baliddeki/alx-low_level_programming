@@ -3,6 +3,5 @@
 #define _main_h
 
 int _putchar(char c);
-int main(int argc, char* argv[]);
-
+void print_name(char *argv[]);
 #endif
